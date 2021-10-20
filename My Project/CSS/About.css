@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background-color: rgb(233, 227, 227);
+}
+
+.root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .header1{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header1 .navbar .logo{
+    background-color: yellowgreen;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    text-decoration: None;
+    margin: auto;
+    font-weight: 700;
+}
+
+.header1 .navbar .container1{
+    margin: 0 auto;
+    width:fit-content;
+}
+
+.navbar{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+ .header1 .navbar a{
+    color: #f4f4f4;
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.text-grey{
+    background-color: #555555;
+}
+
+.text-light{
+    color: #f4f4f4;
+}
+
+.section{
+    width: 90vw;
+    height: fit-content;
+    margin: auto 1.6rem;
+}
+
+.container2{
+    width:80vw;
+    display:inline-block;
+    margin: 0.8rem 2rem;
+    padding-top: 2rem;
+}
+
+.content-section{
+    float: left;
+    width:55%;
+}
+
+.image-section{
+    float: right;
+    width: 40%;
+}
+
+.image-section img{
+    width: 100%;
+    height: 75vh;
+}
+
+.container2::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.content-section .title{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.content-section .content p{
+    line-height: 2rem;
+    font-style: italic;
+}
+
+.content-section .content .button a{
+    display: inline-block;
+    font-weight: 500;
+    padding: 0.5em 1.5em;
+    margin: 0.5em 0;
+    background-color: lightgreen;
+    border-radius: 3rem;
+    text-decoration: None;
+   }
+
+.content-section .content .button a:hover{
+    color: palevioletred;
+}
+
+.content-section .social{
+       margin-top: 0.5rem;
+       margin: auto 2.3rem;
+}
+
+.content-section .social i{
+       color: #555555;
+       font-size: 1.2rem;
+}
+
+.content-section .social i:hover{
+    color: palevioletred;
+}
+
+.content-section .title{
+    color: blue;
+    width:fit-content;
+   border-bottom: 1px solid aqua;
+   margin: 0 auto;
+}

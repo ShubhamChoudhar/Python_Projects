@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    background-color: rgb(233, 227, 227);
+}
+
+.root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .header1{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header1 .navbar .logo{
+    background-color: yellowgreen;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    text-decoration: None;
+    margin: auto;
+    font-weight: 700;
+}
+
+.header1 .navbar .container1{
+    margin: 0 auto;
+    width:fit-content;
+}
+
+.navbar{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+ .header1 .navbar a{
+    color: #f4f4f4;
+}
+
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.login{
+    width:35vw;
+    height: fit-content;
+    border-radius: 20px;
+    border: 3px solid aqua;
+    /* padding: 0 0 0 1rem; */
+    margin: 0 auto;
+    background-color: white;
+}
+
+.login .submit_button{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    margin: 0.5em 1.6rem;
+    background-color: lightgreen;
+    border-radius: 3rem;
+    text-decoration: None;
+}
+
+.login .forgot_pass{
+    display: block;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    margin: 0rem 1.6rem 1rem 0;
+    background-color: lightgreen;
+    border-radius: 3rem;
+    text-decoration: None;
+    text-align: center;
+    font-weight: 500;
+    float: right;
+}
+
+.submit_button{
+    text-align: center;
+    width: 90%;
+    margin: 0 1.6rem;
+    font-weight: 500;
+}
+
+.login::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+form a:hover{
+    color: palevioletred;
+}
+
+form label{
+    display: flex;
+    padding: 0 0 0 1.6rem;
+    font-weight: 500;
+}
+
+form input{
+    height: 2rem;
+    width: 90%;
+    margin: 0 1.6rem;
+    border: 2px solid #555555;
+    border-radius: 15px;
+}
+
+.text-grey{
+    background-color: #555555;
+}
+
+.text-light{
+    color: #f4f4f4;
+}
+
+h1{
+    text-align: center;
+}
+
+.Para1{
+    text-align: center;
+    margin: 0.5rem auto;
+}
+
+.Para2{
+    margin-top: 0.5rem;
+    text-align: center;
+}
